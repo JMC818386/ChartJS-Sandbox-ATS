@@ -60,3 +60,47 @@ body {
         max-width: 100%;
     }
 }
+
+.data-main {
+    /* Add a flex container to display data-display elements in a row */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .data-date {
+    /* Your existing CSS styles for .data-date */
+  }
+  
+  .data-display-container {
+    /* Add a flex container to display .data-display elements in a row */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; /* Distribute elements with space between them */
+    flex-wrap: wrap; /* Enable wrapping if needed */
+  }
+  
+  .data-display {
+    /* Your existing CSS styles for .data-display */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    margin: 5px 10px 5px 10px;
+    min-width: 200px; /* Set a minimum width to ensure enough space for the content */
+    font-size: 10px;
+    font-weight: 900;
+    padding: 15px;
+  }
+  
+  .data-display h1 {
+    /* Your existing CSS styles for .data-display h1 */
+  }
+  
+  .data-number-display {
+    font-size: 80px;
+    margin: 0px;
+    padding: 0px;
+  }
