@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    max-width: 900px;
+    margin: 20px auto; /* Set auto for left and right margins to center the body */
+    font-family: sans-serif;
+}
+
+#stepChart {
+    width: 250px; /* Set the desired width for the chart */
+    height: 10px; /* Set the desired height for the chart */
+    margin: 0 auto; /* Center the chart within its container horizontally */
+}
+
+@media (max-width: 600px) {
+    body {
+        max-width: 100%;
+    }
+}
