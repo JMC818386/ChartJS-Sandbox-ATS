@@ -1,12 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* 
+font-family: 'Hind', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
+
 h1 {
     text-align: center;
 }
 
+h1.Average {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
 body {
     max-width: 900px;
     margin: 20px auto; /* Set auto for left and right margins to center the body */
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(242,242,242);
+    background: radial-gradient(circle, rgba(242,242,242,1) 0%, rgba(208,208,208,1) 100%, rgba(255,255,255,1) 100%);
 }
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .main-nav-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+    width: 150px;
+    transition: background-color 0.2s ease;
+  }
+
+  .main-nav-btn.active-btn {
+    background-color: #FC841B;
+  }
+  
+  .main-nav-btn h1 {
+    font-size: 18px;
+    font-weight: bold;
+  }
 
 #stepChart {
     width: 250px; /* Set the desired width for the chart */
